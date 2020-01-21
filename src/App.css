@@ -1,38 +1,52 @@
-.App {
+#mainbackground {
+  background-color: #F1E1B8;
+  height: 100vh;
+}
+
+h1 {
+  color: #301D1B;
+  font-family: 'Pacifico', cursive;
+}
+
+p {
+  font-family: 'Teko', sans-serif;
+}
+
+div.card {
+  background-color: #BCB48C;
+  border-right: 20px !important;
+  border-left: 20px !important;
+  border-radius: 20px !important;
+  border: 20px;
+}
+
+a {
+  color: #301D1B !important;
+}
+
+a:hover { 
+  color: #B26432 !important;
+}
+
+.card-body {
+  background-color: #D89B55;
+  border: 20px !important;
+  border-radius: 15px !important;
+  position: relative;
+  top: 3px;
+}
+
+.card-img-top {
+  border: 20px;
+  border-radius: 20px !important;
+  position: relative;
+  bottom: 2px;
+}
+
+.card-title {
+  font-family: 'Teko', sans-serif;
   text-align: center;
+  font-size: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
