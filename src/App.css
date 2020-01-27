@@ -3,6 +3,20 @@
   height: 100vh;
 }
 
+.div-container {
+  background-color: transparent;
+}
+
+
+div.container-fluid {
+  background-color: transparent;
+}
+
+body {
+  background-color: #F1E1B8 !important;
+}
+
+
 h1 {
   color: #301D1B;
   font-family: 'Pacifico', cursive;
@@ -14,10 +28,6 @@ p {
 
 div.card {
   background-color: #BCB48C;
-  border-right: 20px !important;
-  border-left: 20px !important;
-  border-radius: 20px !important;
-  border: 20px;
 }
 
 a {
@@ -30,15 +40,13 @@ a:hover {
 
 .card-body {
   background-color: #D89B55;
-  border: 20px !important;
-  border-radius: 15px !important;
+  border-radius: 5px !important;
   position: relative;
   top: 3px;
 }
 
 .card-img-top {
   border: 20px;
-  border-radius: 20px !important;
   position: relative;
   bottom: 2px;
 }
@@ -49,4 +57,7 @@ a:hover {
   font-size: 25px;
 }
 
-
+.certificationCard {
+  height: 33vh;
+  padding: 10px;
+}

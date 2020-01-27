@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
 import Main from './components/Main';
-import Header from './components/Header';
-import Certifications from './components/Certifications';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-        <Header />
-
+      <BrowserRouter>
         <Main />
-        <Certifications />
+      </BrowserRouter>
     </div>
   );
 }
