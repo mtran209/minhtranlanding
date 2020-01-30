@@ -1,11 +1,10 @@
 body {
-  background-color: #F1E1B8;
-  height: 100vh;
+  
 }
 
 .bannerImage { 
   width: auto;
-  height: 87vmin;
+  height: 70vmin;
   padding-bottom: 0;
   display: flex;
   align-self: flex-end;
@@ -20,10 +19,10 @@ body {
 .slideContainer {
   display: flex;
   flex-flow: column;
+  flex-wrap: wrap;
   align-self: center;
   text-align: center;
-  margin-bottom: 24vh;
-  margin-right: 10vw;
+  height: 100vh;
 }
 
 
@@ -31,14 +30,25 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
-  align-items: center;
-  width: 50vw;
-  background-color: white;
+  align-items: flex-end;
+  width: 30vw;
+  background-color: #617289;
+  transition: width .3s;
+  transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
+}
+
+#navbar:hover {
+  width: 35vw;
+}
+
+.nav-link {
+  font-size: 3vh;
 }
 
 
 body, html {
-  background-color: #F1E1B8 !important;
+  background-color: #BCB48C !important;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +58,7 @@ p {
 }
 
 div.card {
-  background-color: #BCB48C;
+  background-color: #8B9968;
 }
 
 .card-title {
@@ -60,11 +70,24 @@ a {
 }
 
 a:hover { 
-  color: #B26432 !important;
+  color: #CEB44F !important;
+  font-weight: bold;
+  text-decoration: none !important;
 }
 
 .certificationCard {
-  display: inline-block;
+  display: inline-flex;
   width: 20vw;
-  padding: 1vw;
+  margin: 1vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img {
+  display: flex;
+  width: auto;
+  height: 30vmin;
+}
+
+.certificationCard:hover {
+  box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }

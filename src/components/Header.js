@@ -14,11 +14,11 @@ class Header extends Component {
                     children={['Design', 'Support', 'Passion', 'Initiative']}
                     /></h3>
                 <h3 style={{fontFamily: 'Teko'}}>by Minh Tran</h3></span>
-                <Navbar light className="sticky-top mt-5 navbar-expand-md" style={{ fontFamily: 'Teko' }}>
-                    <Nav className="ml-5">
+                <Navbar className="mt-5" style={{ fontFamily: 'Teko' }}>
+                    <Nav className="mx-auto">
                         <NavLink>EXPERIENCE</NavLink>
                         <NavLink><Link to='/certifications'>CERTIFICATIONS</Link></NavLink>
-                        <NavLink>PAST PROJECTS</NavLink>
+                        <NavLink><Link to='/pastprojects'>PAST PROJECTS</Link></NavLink>
                     </Nav>
                 </Navbar>
             </div>

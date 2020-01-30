@@ -5,8 +5,7 @@ import { CERTIFICATIONS } from '../shared/certifications';
 
 function Certifications() {
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container d-flex slideContainer">
                 {CERTIFICATIONS.map(certification => {
                     return (
                         <div className="certificationCard">
@@ -14,14 +13,11 @@ function Certifications() {
                                 <CardImg right src={baseUrl + certification.image} />
                                 <CardBody>
                                     <CardTitle>{certification.name}</CardTitle>
-                                    <CardText>{certification.description}</CardText>
-                                    <CardSubtitle>Completed: {certification.date}</CardSubtitle>
                                 </CardBody>
                             </Card>
                         </div>
                     )
                 })}
-            </div>
         </div>
     )
 }
