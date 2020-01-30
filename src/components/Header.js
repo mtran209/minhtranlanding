@@ -1,37 +1,27 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavLink, NavbarBrand } from 'reactstrap';
+import { Navbar, Nav, NavLink, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import TextLoop from 'react-text-loop';
+import { baseUrl } from '../shared/baseUrl';
 
 
 class Header extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {}
-
-    }
-
     render() {
         return (
-            <Navbar className="sticky-top py-0 justify-content-center align-middle" style={{ backgroundColor: '#F1E1B8', fontFamily: 'Teko' }}>
-                <Nav className="mr-5 w-60">
-                    <NavbarBrand className="mt-2" style={{ fontFamily: 'Pacifico' }}>
-                        <TextLoop
-                            children={[`Apps`, 'Design', 'Creativity', 'Innovation']}
-                        />
-                        <p>by Minh Tran</p>
-                    </NavbarBrand>
-                </Nav>
-                <Nav className="ml-5">
-                    <NavLink>EXPERIENCE</NavLink>
-                    <NavLink><Link to='/certifications'>CERTIFICATIONS</Link></NavLink>
-                    <NavLink>PAST PROJECTS</NavLink>
-                    <NavLink>ABOUT</NavLink>
-                    <NavLink>CONTACT</NavLink>
-                </Nav>
-            </Navbar>
+            <div id="navbar" className="d-flex p-0">
+                <span style={{width: '10vw', marginTop: '10vh'}}><h3 style={{fontFamily: 'Pacifico'}}><TextLoop
+                    children={['Design', 'Support', 'Passion', 'Initiative']}
+                    /></h3>
+                <h3 style={{fontFamily: 'Teko'}}>by Minh Tran</h3></span>
+                <Navbar light className="sticky-top mt-5 navbar-expand-md" style={{ fontFamily: 'Teko' }}>
+                    <Nav className="ml-5">
+                        <NavLink>EXPERIENCE</NavLink>
+                        <NavLink><Link to='/certifications'>CERTIFICATIONS</Link></NavLink>
+                        <NavLink>PAST PROJECTS</NavLink>
+                    </Nav>
+                </Navbar>
+            </div>
         )
     }
 }

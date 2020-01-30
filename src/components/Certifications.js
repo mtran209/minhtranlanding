@@ -5,22 +5,22 @@ import { CERTIFICATIONS } from '../shared/certifications';
 
 function Certifications() {
     return (
-        <div className="container-fluid" id='mainbackground'>
+        <div className="container">
             <div className="row">
-                <CardColumns>
                 {CERTIFICATIONS.map(certification => {
                     return (
-                            <Card className="certificationCard">
+                        <div className="certificationCard">
+                            <Card>
                                 <CardImg right src={baseUrl + certification.image} />
                                 <CardBody>
                                     <CardTitle>{certification.name}</CardTitle>
-                                    <CardSubtitle>{certification.date}</CardSubtitle>
                                     <CardText>{certification.description}</CardText>
+                                    <CardSubtitle>Completed: {certification.date}</CardSubtitle>
                                 </CardBody>
                             </Card>
+                        </div>
                     )
                 })}
-                </CardColumns>
             </div>
         </div>
     )
