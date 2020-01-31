@@ -7,7 +7,7 @@ export const EXPERIENCE = [
     {
         company: 'Delta Dental',
         position: 'Service Desk Analyst',
-        image: 'images/ddlogo.jpg',
+        image: 'images/ddlogo.png',
     },
     {
         company: 'MME Consulting',
@@ -22,6 +22,6 @@ export const EXPERIENCE = [
     {
         company: 'Pacific Medical',
         position: 'Business Administrator',
-        image: 'images/pacmedlogo.jpg',
+        image: 'images/pmlogo.png',
     },
 ]

@@ -4,6 +4,7 @@ import PastProjects from './PastProjects';
 import Header from './Header';
 import Certifications from './Certifications';
 import Home from './Home';
+import Passion from './Passion';
 import { baseUrl } from '../shared/baseUrl';
 import TextLoop from 'react-text-loop';
 import WorkExperience from './WorkExperience';
@@ -21,7 +22,7 @@ class Main extends Component {
                 <div className="d-flex p-0">
                     <div className="slideContainer flex-md-column">
                         <span style={{ marginTop: '4vh' }}><h3 style={{ fontFamily: 'Pacifico', fontSize: '6vh' }}><Link to='/home'><TextLoop
-                            children={['Design', 'Support', 'Passion', 'Initiative']}
+                            children={['Design', 'Support', 'Passion', 'Experience']}
                         /></Link></h3>
                             <Link to='/home'><h3 style={{ fontFamily: 'Teko' }}>by Minh Tran</h3></Link></span>
                         <img className="bannerImage" src={baseUrl + 'images/banner2gray.png'} />
@@ -29,6 +30,7 @@ class Main extends Component {
 
                     <Switch>
                         <Route exact path="/home" render={() => <Home />} />
+                        <Route exact path="/passion" render={() => <Passion />} />
                         <Route exact path="/certifications" render={() => <Certifications />} />
                         <Route exact path="/pastprojects" render={() => <PastProjects />} />
                         <Route exact path="/experience" render={() => <WorkExperience />} />

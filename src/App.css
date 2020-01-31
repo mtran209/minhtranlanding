@@ -88,19 +88,22 @@ a:hover {
 
 .experienceCard {
   display: block;
-  height: 15vh;
+ 
   width: auto;
   margin: 1vw;
-  transition: height .5s;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
 
 img.media-object {
+  height: 7vh;
+  width: 7vh;
+}
+
+#expmedia {
   height: 15vh;
   width: 23vh;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 img.card-img, img.card-img-top {
@@ -110,7 +113,39 @@ img.card-img, img.card-img-top {
 
 h4.media-heading {
   font-family: 'Bree Serif', serif;
-  padding-top: 2vh;
+}
+
+div.media {
+  align-items: center;
+  height: 17vh;
+  transition: background-color .3s, height .5s;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#expmediabody {
+  align-items: center;
+  height: 15vh;
+  transition: background-color .3s, height .5s;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#expmediabody:hover {
+  background-color: rgb(255, 255, 255);
+  height: 20vh;
+  box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
+}
+
+
+div.media:hover {
+  background-color: #EBC47A;
+  height: 20vh;
+  box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
+}
+
+div.media-body {
+  padding-left: 10px;
 }
 
 .certificationCard:hover {
@@ -118,10 +153,9 @@ h4.media-heading {
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }
 
-.experienceCard:hover {
-  height: 20vh;
-  box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
+#passionCard {
+  font-size: 2.3vh;
+  text-align: left;
 }
-
 
 

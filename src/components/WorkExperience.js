@@ -8,14 +8,14 @@ function WorkExperience() {
     return (
         <div className="container d-flex slideContainer">
             
-            <Stagger in>
+            <Stagger in delay={240}>
             {EXPERIENCE.map(experience => {
                 return (
                     <Fade in key={experience.id}>
                     <div className="experienceCard">
-                        <Media>
+                        <Media id="expmediabody">
                             <Media left href="#">
-                            <Media object src={baseUrl + experience.image} />
+                            <Media id="expmedia" object src={baseUrl + experience.image} />
                             </Media>
                             <Media body>
                                 <Media heading>{experience.company}</Media>

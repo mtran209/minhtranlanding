@@ -24,6 +24,7 @@ function PastProjects() {
             </div>
             </FadeTransform>
             <FadeTransform
+            delay={300}
                 in
                 transformProps={{
                     exitTransform: 'scale(0.5) translateY(-50%)'
@@ -38,6 +39,7 @@ function PastProjects() {
             </div>
             </FadeTransform>
             <FadeTransform
+            delay={500}
                 in
                 transformProps={{
                     exitTransform: 'scale(0.5) translateY(-50%)'
@@ -52,6 +54,7 @@ function PastProjects() {
             </div>
             </FadeTransform>
             <FadeTransform
+            delay={700}
                 in
                 transformProps={{
                     exitTransform: 'scale(0.5) translateY(-50%)'
@@ -66,6 +69,7 @@ function PastProjects() {
             </div>
             </FadeTransform>
             <FadeTransform
+            delay={900}
                 in
                 transformProps={{
                     exitTransform: 'scale(0.5) translateY(-50%)'
