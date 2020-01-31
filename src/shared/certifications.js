@@ -6,12 +6,6 @@ export const CERTIFICATIONS = [
         image: 'images/Utelogy.jpg'
     },
     {
-        name: 'Windows Modern Desktop Administrator MD-100',
-        date: 'April 2019',
-        description: "This exam measures your ability to accomplish the following technical tasks: deploy Windows; manage devices and data; configure connectivity; and maintain Windows.",
-        image: 'images/MD100.png'
-    },
-    {
         name: 'MTA - Microsoft Server Administration Fundamentals',
         date: 'August 2018',
         description: "Server fundamentals such as managing Windows Servers (including virtualization)  and storage, along with monitoring and troubleshooting servers are included in this certification. It also covers such topics as essential naming, directory, and print services. Students also learn of popular Windows Network Services and Applications.",
@@ -30,10 +24,17 @@ export const CERTIFICATIONS = [
         image: 'images/GoogleITSuppCert.jpg'
     },
     {
+        name: 'Windows Modern Desktop Administrator MD-100',
+        date: 'April 2019',
+        description: "This exam measures your ability to accomplish the following technical tasks: deploy Windows; manage devices and data; configure connectivity; and maintain Windows.",
+        image: 'images/MD100.png'
+    },
+    {
         name: 'Nucamp Web Development Bootcamp',
         date: 'January 2020',
         description: "This 5-course certificate, developed by Google, includes innovative curriculum designed to prepare you for an entry-level role in IT support. A job in IT can mean in-person or remote help desk work in a small business or at a global company like Google. The program is part of Grow with Google, a Google initiative to help create economic opportunities for all Americans.",
         image: 'images/NucampCert.jpg'
     },
+    
 
 ]

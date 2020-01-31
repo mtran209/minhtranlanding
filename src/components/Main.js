@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Switch, Redirect, Route, withRouter } from 'react-router-dom';
+import { Switch, Redirect, Route, withRouter, Link } from 'react-router-dom';
 import PastProjects from './PastProjects';
 import Header from './Header';
 import Certifications from './Certifications';
 import Home from './Home';
 import { baseUrl } from '../shared/baseUrl';
+import TextLoop from 'react-text-loop';
 
 class Main extends Component {
     constructor(props) {
@@ -22,7 +23,13 @@ class Main extends Component {
                         <Route exact path="/certifications" render={() => <Certifications />} />
                         <Route exact path="/pastprojects" render={() => <PastProjects />} />
                     </Switch>
-                    <img className="bannerImage" src={baseUrl + 'images/banner1small.png'} />
+                    <div className="slideContainer flex-md-column">
+                        <span style={{marginTop: '5vh'}}><h3 style={{ fontFamily: 'Pacifico', fontSize: '5vh' }}><Link to='/home'><TextLoop
+                            children={['Design', 'Support', 'Passion', 'Initiative']}
+                        /></Link></h3>
+                            <Link to='/home'><h3 style={{ fontFamily: 'Teko' }}>by Minh Tran</h3></Link></span>
+                        <img className="bannerImage" src={baseUrl + 'images/banner2gray.png'} />
+                    </div>
                 </div>
                 <Redirect to='/home' />
             </div>

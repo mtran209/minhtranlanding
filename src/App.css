@@ -1,10 +1,9 @@
-body {
-  
+h1 {
+  font-family: "Bree Serif", serif;
 }
-
 .bannerImage { 
   width: auto;
-  height: 70vmin;
+  height: 80vmin;
   padding-bottom: 0;
   display: flex;
   align-self: flex-end;
@@ -16,6 +15,7 @@ body {
   justify-content: flex-end;
 }
 
+
 .slideContainer {
   display: flex;
   flex-flow: column;
@@ -23,22 +23,22 @@ body {
   align-self: center;
   text-align: center;
   height: 100vh;
+  justify-content: center;
 }
 
 
 #navbar {
   display: flex;
   flex-flow: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  width: 30vw;
-  background-color: #617289;
+  justify-content: space-evenly;
+  width: 25vw;
+  background-color: #EBC47A;
   transition: width .3s;
   transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
 }
 
 #navbar:hover {
-  width: 35vw;
+  width: 32vw;
 }
 
 .nav-link {
@@ -47,7 +47,7 @@ body {
 
 
 body, html {
-  background-color: #BCB48C !important;
+  background-color: #D3D3D2 !important;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ p {
 }
 
 div.card {
-  background-color: #8B9968;
+  background-color: rgb(172, 97, 94);
 }
 
 .card-title {
@@ -70,23 +70,18 @@ a {
 }
 
 a:hover { 
-  color: #CEB44F !important;
+  color: #C87C66 !important;
   font-weight: bold;
   text-decoration: none !important;
 }
 
 .certificationCard {
   display: inline-flex;
-  width: 20vw;
+  width: 15vw;
   margin: 1vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card-img {
-  display: flex;
-  width: auto;
-  height: 30vmin;
-}
 
 .certificationCard:hover {
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;

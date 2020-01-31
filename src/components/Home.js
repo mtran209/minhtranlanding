@@ -11,10 +11,10 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="container-fluid p-0 d-flex mainBanner">
-                <div className="d-flex slideContainer">
-                    <h1>Minh Tran is</h1>
-                    <p>Stuff that belongs here to say how good I am at my job and that you should hire me right meow!</p>
+            <div className="container slideContainer">
+                <div className="d-flex slideContainer align-items-center p-5">
+                    <h1>Hello, my name is <span style={{color: '#C87C66'}}>Minh</span>.</h1>
+                        <h1>I'm a <span style={{color: '#C87C66'}}>Web Developer</span> and I'd love to build things with you!</h1>
                 </div>
             </div>
         )
