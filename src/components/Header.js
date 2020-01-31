@@ -11,10 +11,12 @@ class Header extends Component {
         return (
             <div id="navbar" className="d-flex p-0">
                 <Navbar style={{ fontFamily: 'Teko' }}>
-                    <Nav className="mx-auto">
-                        <NavLink>EXPERIENCE</NavLink>
+                    <Nav className="ml-3">
+                        <NavLink><Link to='/passion'>MY PASSION</Link></NavLink>
+                        <NavLink><Link to='/experience'>EXPERIENCE</Link></NavLink>
                         <NavLink><Link to='/certifications'>CERTIFICATIONS</Link></NavLink>
                         <NavLink><Link to='/pastprojects'>PAST PROJECTS</Link></NavLink>
+                        <NavLink><Link to='/contact'>CONTACT</Link></NavLink>
                     </Nav>
                 </Navbar>
             </div>

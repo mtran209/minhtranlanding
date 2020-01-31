@@ -24,7 +24,7 @@ export const CERTIFICATIONS = [
         image: 'images/GoogleITSuppCert.jpg'
     },
     {
-        name: 'Windows Modern Desktop Administrator MD-100',
+        name: 'Windows Desktop Administrator MD-100',
         date: 'April 2019',
         description: "This exam measures your ability to accomplish the following technical tasks: deploy Windows; manage devices and data; configure connectivity; and maintain Windows.",
         image: 'images/MD100.png'

@@ -18,12 +18,12 @@ h1 {
 
 .slideContainer {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   flex-wrap: wrap;
   align-self: center;
   text-align: center;
   height: 100vh;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 
@@ -58,11 +58,13 @@ p {
 }
 
 div.card {
-  background-color: rgb(172, 97, 94);
+  background-color: rgb(189, 102, 99);
+  border-radius: 10px;
 }
 
 .card-title {
   text-align: center;
+  font-family: 'Bree Serif', serif;
 }
 
 a {
@@ -77,12 +79,49 @@ a:hover {
 
 .certificationCard {
   display: inline-flex;
-  width: 15vw;
-  margin: 1vw;
+  width: 14vw;
+  margin: .5vh;
+  transition: width .5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
+.experienceCard {
+  display: block;
+  height: 15vh;
+  width: auto;
+  margin: 1vw;
+  transition: height .5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+img.media-object {
+  height: 15vh;
+  width: 23vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+img.card-img, img.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h4.media-heading {
+  font-family: 'Bree Serif', serif;
+  padding-top: 2vh;
+}
 
 .certificationCard:hover {
+  width: 16vw;
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }
+
+.experienceCard:hover {
+  height: 20vh;
+  box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
+}
+
+
+
