@@ -7,7 +7,7 @@ import { Fade } from 'react-animation-components';
 function Certifications() {
     return (
       
-        <div className="container d-flex slideContainer">
+        <div className="container d-flex rowContainer">
                 {CERTIFICATIONS.map(certification => {
                     return (
                         <Fade in key={certification.id}>

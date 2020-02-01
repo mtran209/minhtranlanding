@@ -7,8 +7,8 @@ function Passion() {
     return (
         <div className="container slideContainer p-4">
             <Fade in delay={50} duration={400}>
-            <Card id='passionCard'>
-                <CardBody>
+            <Card id='passionCard' style={{padding: '2vmin'}}>
+                <CardBody style={{fontSize: '2.5vmin'}}>
                 <Stagger in duration={700} delay={240}>
                     <Fade in>
                     <CardTitle>

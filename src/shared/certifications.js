@@ -6,13 +6,13 @@ export const CERTIFICATIONS = [
         image: 'images/Utelogy.jpg'
     },
     {
-        name: 'MTA - Microsoft Server Administration Fundamentals',
+        name: 'Microsoft Server Administration Fundamentals',
         date: 'August 2018',
         description: "Server fundamentals such as managing Windows Servers (including virtualization)  and storage, along with monitoring and troubleshooting servers are included in this certification. It also covers such topics as essential naming, directory, and print services. Students also learn of popular Windows Network Services and Applications.",
         image: 'images/MTAServer.jpg'
     },
     {
-        name: 'MTA - Microsoft Operating System Fundamentals',
+        name: 'Microsoft Operating System Fundamentals',
         date: 'August 2018',
         description: "This certification covers deployment, management, and maintenance of modern Microsoft Operating Sytems.",
         image: 'images/MTAOs.jpg'
@@ -24,7 +24,7 @@ export const CERTIFICATIONS = [
         image: 'images/GoogleITSuppCert.jpg'
     },
     {
-        name: 'Windows Desktop Administrator MD-100',
+        name: 'Windows Desktop Administrator',
         date: 'April 2019',
         description: "This exam measures your ability to accomplish the following technical tasks: deploy Windows; manage devices and data; configure connectivity; and maintain Windows.",
         image: 'images/MD100.png'

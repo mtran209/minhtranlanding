@@ -20,11 +20,11 @@ class Main extends Component {
         return (
             <div className="container-fluid p-0" style={{ height: '100vh' }}>
                 <div className="d-flex p-0">
-                    <div className="slideContainer flex-md-column">
-                        <span style={{ marginTop: '4vh' }}><h3 style={{ fontFamily: 'Pacifico', fontSize: '6vh' }}><Link to='/home'><TextLoop
+                    <div className="slideContainer">
+                        <span style={{ marginTop: '4vh' }}><h3 style={{ fontFamily: 'Pacifico', fontSize: '6vmin' }}><Link to='/home'><TextLoop
                             children={['Design', 'Support', 'Passion', 'Experience']}
                         /></Link></h3>
-                            <Link to='/home'><h3 style={{ fontFamily: 'Teko' }}>by Minh Tran</h3></Link></span>
+                            <Link to='/home'><h3 style={{ fontFamily: 'Teko', fontSize: '3vmin' }}>by Minh Tran</h3></Link></span>
                         <img className="bannerImage" src={baseUrl + 'images/banner2gray.png'} />
                     </div>
                     <Switch>

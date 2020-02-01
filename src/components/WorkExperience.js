@@ -17,7 +17,7 @@ function WorkExperience() {
                             <Media left href="#">
                             <Media className="pl-3" id="expmedia" object src={baseUrl + experience.image} />
                             </Media>
-                            <Media body>
+                            <Media style={{fontSize: '2.5vmin'}} body>
                                 <Media heading>{experience.company}</Media>
                                 {experience.position}
                             </Media>

@@ -1,12 +1,12 @@
 h1 {
   font-family: "Bree Serif", serif;
+  font-size: 6vmin !important;
 }
 .bannerImage { 
   width: auto;
-  height: 80vmin;
-  padding-bottom: 0;
+  max-width: 35vw;
+  max-height: 80vh;
   display: flex;
-  align-self: flex-end;
 }
 
 .mainBanner {
@@ -16,10 +16,20 @@ h1 {
 }
 
 
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
 .slideContainer {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-self: center;
   text-align: center;
   height: 100vh;
@@ -63,11 +73,23 @@ div.card {
   border-radius: 10px;
 }
 
+div.card-title {
+  margin: 0;
+}
+
+div.card-body {
+  padding: .5em;
+}
+
 .card-title {
   text-align: center;
   font-family: 'Bree Serif', serif;
-  font-size: 3vh;
+  font-size: 2.5vmin;
   transition: color .3s;
+}
+
+.card-body {
+  padding: 1em;
 }
 
 .card-title:hover {
@@ -88,6 +110,8 @@ a:hover {
 .certificationCard {
   display: inline-flex;
   width: 14vw;
+  height: fit-content;
+  max-height: 40vmin;
   margin: .5vh;
   transition: width .5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -96,10 +120,8 @@ a:hover {
 
 .experienceCard {
   display: block;
- 
   width: auto;
   margin: 1vw;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
@@ -125,6 +147,7 @@ img.card-img, img.card-img-top {
 
 h4.media-heading {
   font-family: 'Bree Serif', serif;
+  font-size: 4vmin;
 }
 
 div.media {
