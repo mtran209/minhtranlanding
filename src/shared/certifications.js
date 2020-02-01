@@ -6,7 +6,7 @@ export const CERTIFICATIONS = [
         image: 'images/Utelogy.jpg'
     },
     {
-        name: 'Microsoft Server Administration Fundamentals',
+        name: 'Microsoft Server Fundamentals',
         date: 'August 2018',
         description: "Server fundamentals such as managing Windows Servers (including virtualization)  and storage, along with monitoring and troubleshooting servers are included in this certification. It also covers such topics as essential naming, directory, and print services. Students also learn of popular Windows Network Services and Applications.",
         image: 'images/MTAServer.jpg'
