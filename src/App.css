@@ -103,7 +103,7 @@ img.media-object {
 
 #expmedia {
   height: 15vh;
-  width: 23vh;
+  width: auto;
 }
 
 img.card-img, img.card-img-top {
@@ -117,7 +117,7 @@ h4.media-heading {
 
 div.media {
   align-items: center;
-  height: 17vh;
+  height: 19vh;
   transition: background-color .3s, height .5s;
   padding: 5px;
   border-radius: 10px;
@@ -140,12 +140,12 @@ div.media {
 
 div.media:hover {
   background-color: #EBC47A;
-  height: 20vh;
+  height: 22vh;
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }
 
 div.media-body {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .certificationCard:hover {

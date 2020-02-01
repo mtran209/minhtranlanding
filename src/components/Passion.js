@@ -1,19 +1,19 @@
 import React from 'react';
-import { Media, CardBody, Card, CardImg, CardTitle } from 'reactstrap';
+import { Media, CardBody, Card, CardTitle } from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl';
-import { FadeTransform, Fade, Stagger } from 'react-animation-components';
+import { Fade, Stagger } from 'react-animation-components';
 
 function Passion() {
     return (
         <div className="slideContainer p-4">
+            <Fade in duration={600}>
             <Card id='passionCard'>
-                <CardImg src='' />
-                <CardBody>
+                <CardBody className="pb-4">
                     <CardTitle>
                         <h1>What Inspires Me</h1>
                     </CardTitle>
                     Coming from a background of support in both Information Technology and Fitness has allowed me to express my logical, methodical nature, but not any of my expressive traits. When I discovered Web Development, it just clicked. Creating concise code, elegant web design, and responsive layouts sparked a fire in me that I never knew existed. It allows me to give my creativity and vision a form that can be shared with others. I've never stopped running with it since.
-                    <Stagger in delay={240}>
+                    <Stagger in duration={700} delay={340}>
                         <Fade in>
                             <Media>
                                 <Media object src={baseUrl + 'images/htmlicon.png'} />
@@ -50,6 +50,7 @@ function Passion() {
                     </Stagger>
                 </CardBody>
             </Card>
+            </Fade>
         </div>
     );
 }

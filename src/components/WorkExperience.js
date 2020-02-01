@@ -15,7 +15,7 @@ function WorkExperience() {
                     <div className="experienceCard">
                         <Media id="expmediabody">
                             <Media left href="#">
-                            <Media id="expmedia" object src={baseUrl + experience.image} />
+                            <Media className="pl-3" id="expmedia" object src={baseUrl + experience.image} />
                             </Media>
                             <Media body>
                                 <Media heading>{experience.company}</Media>
