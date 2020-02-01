@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, CardBody, CardTitle, CardText, CardSubtitle, CardImg, CardColumns } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardImg } from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl';
 import { CERTIFICATIONS } from '../shared/certifications';
-import { Fade, FadeTransform, Stagger } from 'react-animation-components';
+import { Fade } from 'react-animation-components';
 
 function Certifications() {
     return (

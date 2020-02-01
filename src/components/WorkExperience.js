@@ -1,6 +1,6 @@
 import React from 'react';
 import { EXPERIENCE } from '../shared/experience';
-import { CardSubtitle, CardTitle, Card, CardBody, CardImg, Media } from 'reactstrap';
+import { Media } from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl';
 import { Fade, Stagger } from 'react-animation-components';
 

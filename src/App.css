@@ -35,6 +35,7 @@ h1 {
   background-color: #EBC47A;
   transition: width .3s;
   transition-timing-function: cubic-bezier(0.1, 0.5, 1.0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navbar:hover {
@@ -58,21 +59,28 @@ p {
 }
 
 div.card {
-  background-color: rgb(189, 102, 99);
+  background-color: rgb(190, 129, 127);
   border-radius: 10px;
 }
 
 .card-title {
   text-align: center;
   font-family: 'Bree Serif', serif;
+  font-size: 3vh;
+  transition: color .3s;
+}
+
+.card-title:hover {
+  color: #D3D3D2;
 }
 
 a {
   color: #301D1B !important;
+  transition: color .3s;
 }
 
 a:hover { 
-  color: #C87C66 !important;
+  color: rgb(190, 129, 127) !important;
   font-weight: bold;
   text-decoration: none !important;
 }
@@ -94,6 +102,10 @@ a:hover {
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+}
+
+#pp {
+  background-color: #EBC47A;
 }
 
 img.media-object {
@@ -129,6 +141,7 @@ div.media {
   transition: background-color .3s, height .5s;
   padding: 5px;
   border-radius: 10px;
+  background-color: #EBC47A;
 }
 
 #expmediabody:hover {
@@ -156,6 +169,11 @@ div.media-body {
 #passionCard {
   font-size: 2.3vh;
   text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#emtext {
+  font-weight: bold;
+  font-style: italic;
+}
 

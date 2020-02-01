@@ -1,8 +1,7 @@
 import React from 'react'
-import TextLoop from 'react-text-loop';
-import { Card, CardBody, CardImg, CardText, CardTitle } from 'reactstrap';
+import { Card, CardBody, CardImg, CardTitle } from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl'
-import { Fade, FadeTransform, Stagger } from 'react-animation-components';
+import { FadeTransform } from 'react-animation-components';
 
 
 
@@ -15,10 +14,11 @@ function PastProjects() {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
             <div className="certificationCard">
-                <Card>
+                <Card id="pp">
                     <CardImg top src={baseUrl + "/images/bootstrap.jpg"} />
                     <CardBody>
-                        <CardTitle className="my-auto"><a href="http://html.minhtran.app" target="_blank">The Spiced Pups</a></CardTitle>
+                        <CardTitle><a href="http://html.minhtran.app" target="_blank">THE SPICED PUPS</a></CardTitle>
+                        My very first website - a lesson in <span id="emtext">HTML & CSS</span>
                     </CardBody>
                 </Card>
             </div>
@@ -30,10 +30,11 @@ function PastProjects() {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
             <div className="certificationCard">
-                <Card>
+                <Card id="pp">
                     <CardImg top src={baseUrl + "/images/react1.jpg"} />
                     <CardBody>
-                        <CardTitle className="my-auto"><a href="http://ravenous.minhtran.app" target="_blank">Ravenous</a></CardTitle>
+                        <CardTitle><a href="http://ravenous.minhtran.app" target="_blank">RAVENOUS</a></CardTitle>
+                        My 2nd project - a lesson in <span id="emtext">APIs</span>
                     </CardBody>
                 </Card>
             </div>
@@ -45,10 +46,11 @@ function PastProjects() {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
             <div className="certificationCard">
-                <Card>
+                <Card id="pp">
                     <CardImg top src={baseUrl + "/images/react2.png"} />
                     <CardBody>
-                        <CardTitle className="my-auto"><a href="http://react.minhtran.app" target="_blank">Yummy App!</a></CardTitle>
+                        <CardTitle><a href="http://react.minhtran.app" target="_blank">YUMMY APP</a></CardTitle>
+                        My foray in <span id="emtext">React.JS</span>
                     </CardBody>
                 </Card>
             </div>
@@ -60,10 +62,11 @@ function PastProjects() {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
             <div className="certificationCard">
-                <Card>
+                <Card id="pp">
                     <CardImg top src={baseUrl + "/images/reactnative.jpg"} />
                     <CardBody>
-                        <CardTitle className="my-auto"><a href="http://html.minhtran.app" target="_blank">NucampSite</a></CardTitle>
+                        <CardTitle><a href="http://html.minhtran.app" target="_blank">NUCAMPSITE</a></CardTitle>
+                        My <span id="emtext">BootCamp</span> course project
                     </CardBody>
                 </Card>
             </div>
@@ -75,10 +78,11 @@ function PastProjects() {
                     exitTransform: 'scale(0.5) translateY(-50%)'
                 }}>
             <div className="certificationCard">
-                <Card>
+                <Card id="pp">
                     <CardImg top src={baseUrl + "/images/image1.png"} />
                     <CardBody>
-                        <CardTitle className="my-auto"><a href="http://minhtran.app" target="_blank">Minh Tran</a></CardTitle>
+                        <CardTitle><a href="http://minhtran.app" target="_blank">MINH TRAN</a></CardTitle>
+                        My first <span id="emtext">showcase</span> website
                     </CardBody>
                 </Card>
             </div>

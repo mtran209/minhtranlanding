@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { baseUrl } from '../shared/baseUrl';
-import TextLoop from 'react-text-loop';
 
 class Home extends Component {
 

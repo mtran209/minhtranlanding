@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavLink, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
+import { Navbar, Nav, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import TextLoop from 'react-text-loop';
-import { baseUrl } from '../shared/baseUrl';
 
 
 class Header extends Component {
@@ -16,9 +14,9 @@ class Header extends Component {
                         <NavLink><Link to='/experience'>EXPERIENCE</Link></NavLink>
                         <NavLink><Link to='/certifications'>CERTIFICATIONS</Link></NavLink>
                         <NavLink><Link to='/pastprojects'>PAST PROJECTS</Link></NavLink>
-                        <NavLink><Link to='/contact'>CONTACT</Link></NavLink>
                     </Nav>
                 </Navbar>
+                
             </div>
         )
     }

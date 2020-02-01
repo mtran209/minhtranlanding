@@ -27,7 +27,6 @@ class Main extends Component {
                             <Link to='/home'><h3 style={{ fontFamily: 'Teko' }}>by Minh Tran</h3></Link></span>
                         <img className="bannerImage" src={baseUrl + 'images/banner2gray.png'} />
                     </div>
-
                     <Switch>
                         <Route exact path="/home" render={() => <Home />} />
                         <Route exact path="/passion" render={() => <Passion />} />
