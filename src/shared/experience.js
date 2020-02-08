@@ -1,5 +1,10 @@
 export const EXPERIENCE = [
     {
+        company: 'Paul the Tutors Education Centers',
+        position: 'Junior Web Developer, [Present]',
+        image: 'images/pttslogo.png',
+    },
+    {
         company: 'Direct Technology',
         position: 'Service Desk Specialist II, [Present]',
         image: 'images/dtlogo.png',
