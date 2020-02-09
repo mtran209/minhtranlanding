@@ -150,7 +150,7 @@ h4.media-heading {
   font-size: 4vmin;
 }
 
-div.media, div.modal-content {
+div.media,  div.modal-content {
   align-items: center;
   transition: background-color .3s, height .5s;
   padding: 5px;
@@ -166,16 +166,15 @@ div.media, div.modal-content {
   background-color: #EBC47A;
 }
 
-#expmediabody:hover {
-  background-color: rgb(255, 255, 255);
-  height: 20vh;
+
+.expmediabody:hover {
+  background-color: #EBC47A;
+  height: 22vh;
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }
 
-
-div.media:hover {
+#passionmedia:hover {
   background-color: #EBC47A;
-  height: 22vh;
   box-shadow: 4px 4px 30px 0 #CEB44F, 6px 6px 40px 0 #CEB44F;
 }
 

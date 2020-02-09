@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { EXPERIENCE } from '../shared/experience';
-import { Media, Modal, Card, CardBody, CardTitle, CardImg } from 'reactstrap';
+import { Media, Modal, ModalHeader } from 'reactstrap';
 import { baseUrl } from '../shared/baseUrl';
 import { Fade, Stagger } from 'react-animation-components';
 
@@ -33,7 +33,6 @@ class WorkExperience extends Component {
     render() {
 
         const featuredWork = EXPERIENCE.filter(exp => (exp.id === this.state.featuredExp))[0];
-        console.log(featuredWork);
 
         return (
             <div className="container d-flex slideContainer">
@@ -60,13 +59,12 @@ class WorkExperience extends Component {
                     isOpen={this.state.isOpen}
                     toggle={this.toggleModal}
                 >
-                    <Media top>
-                        <Media object src={baseUrl + featuredWork.image} />
+                    <ModalHeader toggle={this.toggleModal}>
+                        <Media object src={baseUrl + featuredWork.image} />{'   '}{featuredWork.company}
+                    </ModalHeader>
+                    <Media>
                         <Media body>
-                            <Media className="text-center" heading>
-                                {featuredWork.company}
-                            </Media>
-                            <Media className="text-center" heading>
+                            <Media className="text-center mb-3" heading>
                                 {featuredWork.position}
                             </Media>
                             <ul>

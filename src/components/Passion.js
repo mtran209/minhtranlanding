@@ -19,7 +19,7 @@ function Passion() {
                     Coming from a background of support in both <span id="emtext">Information Technology and Fitness</span> has allowed me to express my logical, methodical nature, but not any of my expressive traits. When I discovered <span id="emtext">Web Development</span> it gave me an outlet for that expression. Creating concise code, elegant web design, and responsive layouts sparked a fire in me that I never knew existed. It allows me to give my creativity and vision a form that can be shared with others. I've never stopped running with it since.
                     </Fade>
                         <Fade in>
-                            <Media>
+                            <Media id='passionmedia'>
                                 <Media object src={baseUrl + 'images/htmlicon.png'} />
                                 <Media body>
                                     <Media heading>
@@ -30,7 +30,7 @@ function Passion() {
                             </Media>
                         </Fade>
                         <Fade in>
-                            <Media>
+                            <Media id='passionmedia'>
                                 <Media object src={baseUrl + 'images/reacticon.png'} />
                                 <Media body>
                                     <Media heading>
@@ -41,7 +41,7 @@ function Passion() {
                             </Media>
                         </Fade>
                         <Fade in>
-                            <Media>
+                            <Media id='passionmedia'>
                                 <Media object src={baseUrl + 'images/analyticsicon.png'} />
                                 <Media body>
                                     <Media heading>
