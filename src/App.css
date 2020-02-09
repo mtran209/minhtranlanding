@@ -150,14 +150,14 @@ h4.media-heading {
   font-size: 4vmin;
 }
 
-div.media {
+div.media, div.modal-content {
   align-items: center;
   transition: background-color .3s, height .5s;
   padding: 5px;
   border-radius: 10px;
 }
 
-#expmediabody {
+.expmediabody {
   align-items: center;
   height: 12vh;
   transition: background-color .3s, height .5s;
