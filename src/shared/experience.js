@@ -12,7 +12,7 @@ export const EXPERIENCE = [
     {
         id: 2,
         company: 'Direct Technology',
-        position: 'Service Desk Specialist II, [Present]',
+        position: 'Service Desk Analyst II, [Present]',
         image: 'images/dtlogo.png',
         p1: 'Escalation of Tier 1/2 tickets',
         p2: 'Project Managed $150,000 AV conversion project of conference rooms into Zoom Rooms',
@@ -32,7 +32,7 @@ export const EXPERIENCE = [
     {
         id: 4,
         company: 'MME Consulting',
-        position: 'IT Support Specialist, [1 year]',
+        position: 'IT Technical Support, [1 year]',
         image: 'images/mmelogo.png',
         p1: 'Active Directory and O365/Azure administration',
         p2: 'Patching and configuration of servers and networking devices',
@@ -42,7 +42,7 @@ export const EXPERIENCE = [
     {
         id: 5,
         company: 'Paul the Tutors Education Centers',
-        position: 'Business Analyst / Technical Contact, [3 years]',
+        position: 'IT Support Specialist, [3 years]',
         image: 'images/pttslogo.png',
         p1: 'Direct invoice reconciliation and analysis of P&L statements totaling over $600,000 in annual revenue',
         p2: 'Communication of technical issues and processes to relevant stakeholders',
@@ -52,7 +52,7 @@ export const EXPERIENCE = [
     {
         id: 6,
         company: 'Pacific Medical',
-        position: 'Business Administrator, [2 years]',
+        position: 'Office Administrator, [2 years]',
         image: 'images/pmlogo.png',
         p1: 'Process creation for new fabrication lab',
         p2: 'Integrated ERP systems for insurance billing and ordering with federal insurance billing codes',
